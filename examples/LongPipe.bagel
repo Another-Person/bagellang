@@ -1,0 +1,13 @@
+fun Add(n)
+{
+    return n + 10;
+}
+
+fun Printer(n)
+{
+    print n;
+}
+
+var n;
+5 -> n;
+n -> Add() -> Printer();

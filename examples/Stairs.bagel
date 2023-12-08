@@ -1,0 +1,24 @@
+fun PrintStairs(max)
+{
+    var n;
+    for (1 -> n; n <= max; n + 1 -> n)
+    {
+        var stair;
+        "" -> stair;
+        var i;
+        for (0 -> i; i < n; i + 1 -> i)
+        {
+            stair + "*" -> stair;
+        }
+        print stair;
+    }
+}
+
+var n;
+var stair;
+var i;
+var max;
+for (3 -> max; max <= 5; max + 1 -> max)
+{
+    max -> PrintStairs();
+}

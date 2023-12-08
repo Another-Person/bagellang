@@ -1,0 +1,11 @@
+fun SayHello(name)
+{
+    "Hello " + name + "!" -> name;
+    print name;
+}
+
+var name;
+"Joey" -> name;
+name -> SayHello();
+"everyone" -> name;
+name -> SayHello();
